@@ -1,9 +1,9 @@
 {
   "schema": "ppt_workflow_state.v1",
-  "generated_utc": "2026-05-31T16:44:33.096644+00:00",
+  "generated_utc": "2026-05-31T17:57:19+00:00",
   "repo_root": "D:/Marx_report",
   "requires_academic_figure_prompt": false,
-  "next_stage": "human_acceptance_or_repair",
+  "next_stage": "complete",
   "blocked_reason": null,
   "stages": [
     {
@@ -241,10 +241,10 @@
         "confirmed"
       ],
       "latest": {
-        "path": "D:/Marx_report/align/ppt_deck_build_manifest_v3_template_align.md",
+        "path": "D:/Marx_report/align/ppt_deck_build_manifest_v5_final_report_slide2.md",
         "status": "confirmed",
-        "sha256": "a2ed3a0bdb008012148da4273b3edb6483b92f00e649000d4e02b4a09bd6e12a",
-        "modified_utc": "2026-05-31T16:34:06.3396440+00:00"
+        "sha256": "5529bd51be2ba9a1ed29d8a60b4983056cc21006e6a64df5e8a24fb764a6f444",
+        "modified_utc": "2026-05-31T17:54:35.869334+00:00"
       },
       "artifacts": [
         {
@@ -270,6 +270,18 @@
           "status": "confirmed",
           "sha256": "a2ed3a0bdb008012148da4273b3edb6483b92f00e649000d4e02b4a09bd6e12a",
           "modified_utc": "2026-05-31T16:34:06.3396440+00:00"
+        },
+        {
+          "path": "D:/Marx_report/align/ppt_deck_build_manifest_v4_researched_slide2.md",
+          "status": "draft",
+          "sha256": "2425d768ef1acd82103ee47e2a8a9846536aaf6b66348717b7c81a299cfb714d",
+          "modified_utc": "2026-05-31T17:08:51+00:00"
+        },
+        {
+          "path": "D:/Marx_report/align/ppt_deck_build_manifest_v5_final_report_slide2.md",
+          "status": "confirmed",
+          "sha256": "5529bd51be2ba9a1ed29d8a60b4983056cc21006e6a64df5e8a24fb764a6f444",
+          "modified_utc": "2026-05-31T17:54:35.869334+00:00"
         }
       ]
     },
@@ -281,10 +293,10 @@
         "pass"
       ],
       "latest": {
-        "path": "D:/Marx_report/qa/template_v3_align/ppt_render_qa_v3_template_align.md",
+        "path": "D:/Marx_report/qa/template_v5_final_report_slide2/ppt_render_qa_v5_final_report_slide2.md",
         "status": "pass",
-        "sha256": "9282ea6d1afab38f05ab9b373d026ae2bc71dbde833d5dd81c9c98ddf4028d48",
-        "modified_utc": "2026-05-31T16:44:33.0966449+00:00"
+        "sha256": "b9e816000822a2918d506f246bc728278772f7474b242b3311e38e79985396fb",
+        "modified_utc": "2026-05-31T17:54:35.871351+00:00"
       },
       "artifacts": [
         {
@@ -334,6 +346,30 @@
           "status": "pass",
           "sha256": "96af3afa141d76ea316d22165d327898797f0307e1af9599b816162f298ec85c",
           "modified_utc": "2026-05-31T16:34:06.3416487+00:00"
+        },
+        {
+          "path": "D:/Marx_report/qa/template_v4_researched_slide2/ppt_render_qa_v4_researched_slide2.md",
+          "status": "needs_human_acceptance",
+          "sha256": "38fa8ce19de2b591672fa7d4ce3d4865dd2c437c5785690f0be3bd92f78142d8",
+          "modified_utc": "2026-05-31T17:09:28+00:00"
+        },
+        {
+          "path": "D:/Marx_report/qa/template_v4_researched_slide2/ppt_repair_backlog_v4_researched_slide2.md",
+          "status": "pass",
+          "sha256": "bbf64fe5c1db424b8e03be3194b7cc6814dc18e0dae56ff57fa1ce22cae30c93",
+          "modified_utc": "2026-05-31T17:09:42+00:00"
+        },
+        {
+          "path": "D:/Marx_report/qa/template_v5_final_report_slide2/ppt_render_qa_v5_final_report_slide2.md",
+          "status": "pass",
+          "sha256": "b9e816000822a2918d506f246bc728278772f7474b242b3311e38e79985396fb",
+          "modified_utc": "2026-05-31T17:54:35.871351+00:00"
+        },
+        {
+          "path": "D:/Marx_report/qa/template_v5_final_report_slide2/ppt_repair_backlog_v5_final_report_slide2.md",
+          "status": "pass",
+          "sha256": "6bf451d99a58c50985fcb83ce6801dc27c086c62a6c60f5ec543ebc02ba28204",
+          "modified_utc": "2026-05-31T17:48:38+00:00"
         }
       ]
     }
