@@ -1,0 +1,210 @@
+{
+  "stage": "asset_layout_plan",
+  "stage_status": "confirmed",
+  "requires_confirmed": [
+    "ppt_production_brief",
+    "fact_ledger",
+    "defense_narrative",
+    "storyboard",
+    "speaker_notes_rehearsal",
+    "defense_qa_backup"
+  ],
+  "allowed_next_stage": "ppt-content-fidelity-qa-stage",
+  "confirmed_by": "user/2026-05-31",
+  "created_at": "2026-05-31",
+  "deck": {
+    "slide_size": "16:9",
+    "language": "zh-CN",
+    "template_source": "2025nianduyanshiwengaomoban2-tongyongzhuti.pptx",
+    "style": {
+      "background": "white_or_very_light_gray",
+      "primary_color": "#3C3652",
+      "accent_colors": ["#7561D6", "#5199EA", "#68A4C6"],
+      "font_family_cjk": "DengXian_or_Microsoft_YaHei",
+      "editable_only": true
+    },
+    "slides": [
+      {
+        "slide_no": 1,
+        "title": "研究方法：多源互证闭环",
+        "action_title": "第 7-8 部分将研究方法和案例观察连接成一个可验证的分析闭环",
+        "layout_archetype": "action_title_plus_process",
+        "content_structure": [
+          {
+            "type": "action_title",
+            "placement": "top",
+            "text": "第 7-8 部分将研究方法和案例观察连接成一个可验证的分析闭环"
+          },
+          {
+            "type": "process_diagram",
+            "placement": "center",
+            "nodes": ["文献研究", "案例研究", "实地走访", "比较分析", "归纳分析"],
+            "connector": "arrow_loop_or_linear_flow"
+          },
+          {
+            "type": "source_note",
+            "placement": "bottom",
+            "text": "材料来源：原报告、实践推文、公开资料、相关文献"
+          }
+        ],
+        "asset_decision": "redraw_editable",
+        "visual_route": "local_editable_diagram",
+        "generation_allowed": "no",
+        "source_fact_ids": ["F1", "F3", "F4", "F16"],
+        "citation_need": "short_source_line_plus_references_slide",
+        "speaker_notes_source": "align/ppt_speaker_notes_rehearsal_v0.md#slide-1",
+        "qa_risks": ["avoid_overcomplex_method_model", "do_not_claim_methods_prove_results"]
+      },
+      {
+        "slide_no": 2,
+        "title": "案例基础：以深圳歌尔泰克走访材料为入口",
+        "action_title": "多源互证能避免案例分析停留在参观感想或企业介绍层面",
+        "layout_archetype": "action_title_plus_three_column_matrix",
+        "content_structure": [
+          {
+            "type": "action_title",
+            "placement": "top",
+            "text": "多源互证能避免案例分析停留在参观感想或企业介绍层面"
+          },
+          {
+            "type": "three_column_matrix",
+            "placement": "center",
+            "columns": [
+              {
+                "header": "走访入口",
+                "items": ["深圳歌尔泰克走访", "参观与座谈", "产品展示与成员观察"]
+              },
+              {
+                "header": "公开资料",
+                "items": ["歌尔股份年报/摘要", "业务与研发背景", "全球布局信息"]
+              },
+              {
+                "header": "分析用途",
+                "items": ["案例典型性", "技术突围维度", "后续路径归纳"]
+              }
+            ]
+          },
+          {
+            "type": "so_what_annotation",
+            "placement": "bottom_right",
+            "text": "口径：走访材料为入口，公开资料只作背景补充。"
+          }
+        ],
+        "asset_decision": "redraw_editable",
+        "visual_route": "local_editable_diagram",
+        "generation_allowed": "no",
+        "source_fact_ids": ["F2", "F4", "F5", "F6", "F7", "F8", "F11", "F12", "F12b"],
+        "citation_need": "short_source_line_plus_references_slide",
+        "speaker_notes_source": "align/ppt_speaker_notes_rehearsal_v0.md#slide-2",
+        "qa_risks": ["do_not_assign_group_data_to_single_visit_entity", "avoid_unverified_market_leadership_claims"]
+      },
+      {
+        "slide_no": 3,
+        "title": "初步观察：技术突围的五个维度",
+        "action_title": "歌尔走访材料显示技术突围依赖研发、工程、供应链、人才和全球布局的系统协同",
+        "layout_archetype": "action_title_plus_five_dimension_framework",
+        "content_structure": [
+          {
+            "type": "action_title",
+            "placement": "top",
+            "text": "歌尔走访材料显示技术突围依赖研发、工程、供应链、人才和全球布局的系统协同"
+          },
+          {
+            "type": "five_dimension_framework",
+            "placement": "center",
+            "center": "高科技企业技术突围",
+            "dimensions": ["研发设计", "工程转化", "产业链协同", "人才组织", "全球布局"]
+          },
+          {
+            "type": "so_what_annotation",
+            "placement": "bottom",
+            "text": "初步观察：技术突围不是单点发明，而是系统能力提升。"
+          }
+        ],
+        "asset_decision": "redraw_editable",
+        "visual_route": "local_editable_diagram",
+        "generation_allowed": "no",
+        "source_fact_ids": ["F7", "F8", "F9", "F10", "F13", "F14", "F15"],
+        "citation_need": "short_source_line_plus_references_slide",
+        "speaker_notes_source": "align/ppt_speaker_notes_rehearsal_v0.md#slide-3",
+        "qa_risks": ["do_not_present_as_final_model", "avoid_confidential_or_customer_specific_claims"]
+      },
+      {
+        "slide_no": 4,
+        "title": "参考文献与资料来源",
+        "action_title": "参考文献为方法、理论和案例材料提供最低限度支撑",
+        "layout_archetype": "references_table",
+        "content_structure": [
+          {
+            "type": "title",
+            "placement": "top",
+            "text": "参考文献与资料来源"
+          },
+          {
+            "type": "references_table",
+            "placement": "center",
+            "columns": ["文献/资料", "支撑点"],
+            "rows": [
+              ["周文, 许凌云. 论新质生产力: 内涵特征与重要着力点[J]. 改革, 2023(10): 1-13.", "新质生产力理论"],
+              ["尹西明, 薛美慧, 丁明磊, 陈劲. 面向新质生产力发展的企业主导型产业科技创新体系[J]. 北京理工大学学报(社会科学版), 2024, 26(4): 29-37.", "企业创新主体"],
+              ["包玉泽, 谭力文, 刘林青. 全球价值链背景下的企业升级研究[J]. 外国经济与管理, 2009, 31(4): 37-43.", "全球价值链与技术能力"],
+              ["Yin R K. Case Study Research and Applications: Design and Methods[M]. 6th ed. SAGE, 2018.", "案例研究方法"],
+              ["歌尔股份有限公司. 2025 年年度报告[R]. 2026.", "企业公开资料"]
+            ]
+          }
+        ],
+        "asset_decision": "redraw_editable",
+        "visual_route": "local_editable_table",
+        "generation_allowed": "no",
+        "source_fact_ids": ["F11", "F12", "F13", "F14", "F15", "F16"],
+        "citation_need": "references_slide_only",
+        "speaker_notes_source": "align/ppt_speaker_notes_rehearsal_v0.md#slide-4",
+        "qa_risks": ["reference_format_must_be_final_checked", "may_be_merged_into_group_reference_slide"]
+      }
+    ],
+    "backup_slides": [
+      {
+        "backup_id": "B1",
+        "status": "planned_optional",
+        "placement_policy": "appendix_or_hidden",
+        "layout_archetype": "method_material_output_table",
+        "count_in_main_talk": false
+      },
+      {
+        "backup_id": "B2",
+        "status": "planned_optional",
+        "placement_policy": "appendix_or_hidden",
+        "layout_archetype": "source_boundary_two_column",
+        "count_in_main_talk": false
+      },
+      {
+        "backup_id": "B3",
+        "status": "planned_optional",
+        "placement_policy": "appendix_or_hidden",
+        "layout_archetype": "five_dimension_framework_with_evidence",
+        "count_in_main_talk": false
+      },
+      {
+        "backup_id": "B4",
+        "status": "planned_optional",
+        "placement_policy": "hidden",
+        "layout_archetype": "public_source_boundary_table",
+        "count_in_main_talk": false
+      },
+      {
+        "backup_id": "B5",
+        "status": "planned_optional",
+        "placement_policy": "appendix_or_group_reference",
+        "layout_archetype": "reference_category_table",
+        "count_in_main_talk": false
+      }
+    ],
+    "academic_figure_prompt_required": false,
+    "content_fidelity_requirements": [
+      "Slide 2 must preserve entity-boundary wording.",
+      "Slide 3 must preserve initial-observation wording.",
+      "References must be checked before deck build.",
+      "No generated images or whole-slide screenshots."
+    ]
+  }
+}

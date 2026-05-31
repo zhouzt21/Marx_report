@@ -1,0 +1,10 @@
+slide,asset_name,asset_type,decision,visual_route,source_anchor,evidence_status,generation_allowed,editable_expected,qa_risk
+1,方法闭环流程图,process_diagram,redraw,local_editable_diagram,"F1;F3;F4;F16",source_derived_explanation,no,yes,"避免过度复杂;不要新增方法"
+2,走访入口-公开资料-分析用途矩阵,comparison_matrix,redraw,local_editable_diagram,"F2;F4;F5;F6;F7;F8;F11;F12;F12b",source_derived_explanation,no,yes,"主体口径必须清楚;不把集团数据归入单体"
+3,技术突围五维框架,framework_diagram,redraw,local_editable_diagram,"F7;F8;F9;F10;F13;F14;F15",source_derived_explanation,no,yes,"只能写初步观察;不能写最终模型"
+4,参考文献与资料来源表,references_table,redraw,local_editable_table,"F11;F12;F13;F14;F15;F16",source_evidence,no,yes,"最终格式需核对;可并入总参考页"
+B1,方法-材料-产出表,backup_table,optional,local_editable_table,"F1;F3;F4;F16",source_derived_explanation,no,yes,"备份页不进主讲"
+B2,主体口径说明,backup_diagram,optional,local_editable_diagram,"F2;F4;F5;F6;F11;F12",source_derived_explanation,no,yes,"主体关系必须谨慎"
+B3,五维框架证据锚点,backup_diagram,optional,local_editable_diagram,"F7;F8;F9;F10;F13;F14;F15",source_derived_explanation,no,yes,"不要写成已验证模型"
+B4,企业公开资料边界表,backup_table,optional,local_editable_table,"F11;F12;F12a;F12b",source_evidence,no,yes,"2025年报数据需核对"
+B5,参考文献分类表,backup_table,optional,local_editable_table,"F13;F14;F15;F16",source_evidence,no,yes,"GB/T 7714格式统一"
